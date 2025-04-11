@@ -1,1 +1,26 @@
 Fill in the passphrases here.
+<!-- Passcode for question 1: WongAvery -->
+<title data-question2="iHateC++">Scavenger Hunt</title>
+<p hidden=""> Passcode for question 3: HTMLRules</p>
+<question-four style="display:none">Passcode: JavaScriptRocks</question-four>
+<span style="opacity: 0;">Question 5 Passcode:ShraviBeatsReact</span>
+// Question 6 Passcode: ThisIsJSyay;
+Question 7 Passcode: SofiaWasHere
+/* Question 8 passcode: coolcoolcool3x */
+<h2>Question 9 passcode: 2020_sucked</h2>
+fetch('./questionten.png'); -- passcode: listenToPetalcore
+<meta name="question11" content="ElaineFirst">
+<div data-question12passcode="iHeartWebDev"></div>
+
+1. WongAvery
+2. iHateC++
+3. HTMLRules
+4. JavaScriptRocks
+5. ShraviBeatsReact
+6. ThisIsJSyay
+7. SofiaWasHere
+8. coolcoolcool3x
+9. 2020_sucked
+10. listenToPetalcore
+11. ElaineFirst
+12. iHeartWebDev
