@@ -14,6 +14,7 @@
                 color: white;
                 background-color: color-mix(in srgb, red 60%, white 40%);
                 border-radius: 10px;
+                margin: 0px 0px 10px 0px;
             }
             button:hover{
                 color: black;
@@ -165,7 +166,7 @@
             </section>
         <hr>
         <form style="background: var(--form-bg, darkblue);">
-            <fieldset>
+            <fieldset style="border-color:transparent;">
               <label for="name">Name:</label>
               <input type="text" id="name" name="name" placeholder="Your name"><br><br>
           
@@ -207,7 +208,7 @@
               </select><br><br>
           
               <label for="ttl">Two truths and a lie</label><br>
-              <textarea id="ttl" name="ttl" rows="4" cols="40" placeholder="Two truths and a lie..."></textarea><br><br>
+              <textarea style="padding: 10px 0px 0px 10px" id="ttl" name="ttl" rows="4" cols="40" placeholder="Two truths and a lie..."></textarea><br><br>
           
               <button type="submit">Submit</button>
             </fieldset>
