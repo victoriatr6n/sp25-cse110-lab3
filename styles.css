@@ -8,6 +8,10 @@ a {
     color: hsl(120, 40%, 64%);
 }
 
+a:hover{
+    color: hsl(120, 21%, 31%);
+}
+
 img {
     width: 35vw;
     height: 65vh;
