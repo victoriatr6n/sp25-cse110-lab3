@@ -7,6 +7,9 @@
         <link rel="stylesheet" href="styles.css">
         <link rel="icon" href="favicon.ico">
         <style>
+            :root{
+                --form-bg: color(display-p3 0.3 0.4 0.8);
+            }
             button {
                 color: white;
                 background-color: color-mix(in srgb, red 60%, white 40%);
@@ -161,7 +164,7 @@
                 </audio>
             </section>
         <hr>
-        <form style="background: color(display-p3 0.3 0.4 0.8);">
+        <form style="background: var(--form-bg, darkblue);">
             <fieldset>
               <label for="name">Name:</label>
               <input type="text" id="name" name="name" placeholder="Your name"><br><br>
