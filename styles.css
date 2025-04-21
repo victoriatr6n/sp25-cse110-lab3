@@ -159,12 +159,11 @@ header {
     }
 
     #timer-image {
-        width: 100vw;        /* or 100% if inside a container */
-        height: auto;       /* keeps the image’s aspect ratio */
+        width: 80vw;
+        height: auto;
         max-width: 100%;
         display: block;
         margin: 0 auto;
-        border-color: aqua;
     }
 }
 
