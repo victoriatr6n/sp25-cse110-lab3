@@ -28,6 +28,14 @@ img {
     vertical-align: bottom;
 }
 
+#timer-image{
+    border-color: rgb(255, 105, 105); 
+    border-width: 10px; 
+    border-style: solid;
+    width: 30vw;
+    height: 55vh;
+}
+
 video {
     width: 6in;
     height: 3.5in;
@@ -85,4 +93,56 @@ header {
     width: 100%; /*make sure image is fully shown*/
     height: auto;
     border-radius: 10px;
-  }
+}
+
+/*for phones*/
+@media (max-width: 425px) {
+    body {
+        padding: 5px;
+      }
+    
+    .container {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    img {
+        width: 100%;
+        max-width: none;
+    }
+
+    #timer-caption {
+        font-size: 2rem;
+    }
+
+    #timer-image {
+        width: 100vw;        /* or 100% if inside a container */
+        height: auto;       /* keeps the image’s aspect ratio */
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+        border-color: aqua;
+    }
+}
+
+/*for tablets*/
+@media (min-width: 600px) {
+    body {
+      font-size: 1.1rem;
+      padding: 10px;
+    }
+  
+    #timer-caption {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+
+    #timer-image {
+        width: 80vw;
+        height: auto;
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
