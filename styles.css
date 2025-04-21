@@ -1,7 +1,7 @@
 body {
     background-color: rgb(27, 27, 27);
     color: white;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", "sans-serif";
 }
 
 a {
@@ -9,15 +9,23 @@ a {
 }
 
 a:hover{
-    color: hsl(120, 21%, 31%);
+    color: hsl(120, 21%, 31%); /*change color of link when hovering */
 }
 
 img {
-    width: 35vw;
-    height: 65vh;
-    border-color: rgb(255, 105, 105);
-    border-width: 10px;
-    border-style: solid
+    width: 20%;
+    height: 20%;
+}
+
+.timer-pages {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.timer #timer-caption {
+    display: inline-block;
+    vertical-align: bottom;
 }
 
 video {
@@ -45,3 +53,36 @@ form {
     border-width: 5px;
     border-style: outset;
 }
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgb(7, 7, 7);
+    padding: 20px 0px 20px 0px; /* make sure the header doesn't look like it gets cut off */
+}
+
+.color-schemes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#yellow {
+    flex-basis: max-content;
+    flex-shrink: 1;
+}
+
+.this-or-that {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    column-gap: 10px;
+    row-gap: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.this-or-that img {
+    width: 100%; /*make sure image is fully shown*/
+    height: auto;
+    border-radius: 10px;
+  }
