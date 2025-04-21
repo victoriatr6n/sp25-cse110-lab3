@@ -4,6 +4,14 @@ body {
     font-family: "Montserrat", "sans-serif";
 }
 
+* {
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 a {
     color: hsl(120, 40%, 64%);
 }
@@ -12,9 +20,40 @@ a:hover{
     color: hsl(120, 21%, 31%); /*change color of link when hovering */
 }
 
+header > h1 {
+    color: #43a667
+}
+
+h3 ~ ul {
+    color: rgb(254, 212, 254);
+}
+
+form + p {
+    color: rgb(181, 240, 255);
+}
+
+form {
+    input[type="text"]{
+        &:hover {
+            background-color: rgba(249, 9, 185, 0.05);
+            color: white;
+        }
+    }
+}
+
+input[type="text"] {
+    border-radius: 5px;
+    border-color: blue;
+}
+
 img {
     width: 20%;
     height: 20%;
+}
+
+section:has(img) {
+    border: 1px dashed rgb(54, 136, 88);
+    padding: 10px 10px 10px 10px;
 }
 
 .timer-pages {
@@ -34,6 +73,10 @@ img {
     border-style: solid;
     width: 30vw;
     height: 55vh;
+}
+
+h3.other-media{
+    color:rgb(252, 174, 174);
 }
 
 video {
